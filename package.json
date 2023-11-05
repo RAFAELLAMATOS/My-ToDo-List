@@ -1,0 +1,23 @@
+{
+  "name": "my-todo-list",
+  "version": "1.0.0",
+  "description": "A simple and straightforward task management application.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RAFAELLAMATOS/My-ToDo-List.git"
+  },
+  "author": "Rafaella Matos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RAFAELLAMATOS/My-ToDo-List/issues"
+  },
+  "homepage": "https://github.com/RAFAELLAMATOS/My-ToDo-List#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
