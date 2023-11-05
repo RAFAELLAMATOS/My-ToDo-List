@@ -41,7 +41,7 @@ Contributions are welcome! Fork the repository, make improvements, and submit a 
 
 We encourage the use of Conventional Commits for meaningful and standardized commit messages. Please follow the convention:
 
-- **Format:** `<type>(<scope>): <description>`
+- **Format:** `<type>: <description>`
 - **Examples:** `feat: add user authentication feature`, `fix: resolve issue with task deletion`
 
 For more details on Conventional Commits, visit [conventionalcommits.org](https://www.conventionalcommits.org/).
