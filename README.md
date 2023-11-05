@@ -37,6 +37,15 @@ Welcome to the TodoList App, a straightforward task management application.
 
 Contributions are welcome! Fork the repository, make improvements, and submit a pull request.
 
+### Conventional Commits
+
+We encourage the use of Conventional Commits for meaningful and standardized commit messages. Please follow the convention:
+
+- **Format:** `<type>(<scope>): <description>`
+- **Examples:** `feat: add user authentication feature`, `fix: resolve issue with task deletion`
+
+For more details on Conventional Commits, visit [conventionalcommits.org](https://www.conventionalcommits.org/).
+
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
