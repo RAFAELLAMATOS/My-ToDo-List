@@ -1,0 +1,13 @@
+#!/bin/bash
+
+# Get the commit messages from the last commit to main
+commit_messages=$(git log --pretty=%B -n 1 $GITHUB_REF)
+
+# Check if the commit messages follow conventional commits pattern
+if [[ $commit_messages =~ ^(feat|fix|chore|docs|style|refactor|test|perf) ]]; then
+  echo "Commit messages follow conventional commits standards."
+  exit 0
+else
+  echo "Error: Commit messages do not follow conventional commits standards."
+  exit 1
+fi
